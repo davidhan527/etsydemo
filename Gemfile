@@ -31,7 +31,7 @@ gem 'bootstrap-sass'
 
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
-group :development do
+group :production do
   gem 'rails_12factor'
 end
 # Use ActiveModel has_secure_password
